@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #cec6c6;
+  
+}
+h1{
+  color:#856969;
+  text-align: left;
+  font-size: 60px;
+  font-family: monospace, Lucida Console;
+  font-weight: bolder;
+}
+#display{
+  width:375px;
+  text-align: left;
+  border-width: 5px;
+  border-color:#cec6c6;
+  padding:10px;
+  border-radius: 35px;
+  background-color: #856969;
+  color: #d0c2ca;
+  font-weight:bolder;
+  font-family: monospace, Lucida Console;
+  font-size:35px;
+}
+#go{
+  background-color: #cec6c6;
+  font-family: monospace, Lucida Console;
+  font-weight: bold;
+  border: none;
+  color: #583c3c;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  border-color:#d0c2ca;
+  width:400px;
+}
+#go:hover{
+  color: #d0c2ca;
+  background-color: #856969;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight:bolder;
+}
+#c{
+  width:100px;
+  height:80px;
+  padding: 15px 32px;
+  border-radius: 35px;
+  border-color:#856969;
+  background-color: #f2e4e4;
+  color: #583c3c;
+  font-weight:bolder;
+  font-family: monospace, Lucida Console;
+  font-size:35px;
+}
+#line{
+  padding:3px;
+}
+#c:hover{
+  color: #d0c2ca;
+  background-color: #856969;
+  cursor: pointer;
+}
+
+#calculator{
+  text-align: center;
+  overflow:hidden;
+  width:450px;
+  align-items: center;
+  justify-content: center;
+  margin:auto;
+}
+#buttons{
+  display:grid;
+  
+}
